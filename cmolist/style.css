@@ -1,0 +1,156 @@
+ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border box;
+}
+
+.container {
+  /* display: flex;
+  justify-content: center; */
+  /* width: 70vw; */
+}
+
+.container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  width: 90vw;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 6rem;
+  /* margin-bottom: 3rem; */
+}
+
+/* navbar css STARTS */
+
+.navbar {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 0.75rem;
+  /* width: 70vw; */
+  justify-content: space-between;
+}
+
+.sign-in-btn {
+  width: 6rem;
+  color: #2a62ff;
+  border-radius: 1rem;
+  outline: 2px solid #2a62ff;
+  border: none;
+  background-color: white;
+}
+
+/* navbar css ENDS */
+
+/*hero CSS Starts */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-description {
+  width: 30%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.hero-description-title {
+  font-size: 1.3rem;
+}
+
+.hero-btn {
+  width: 12rem;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: #2a62ff;
+}
+
+/* Hero CSS ENDS */
+
+.collab {
+  text-align: center;
+  font-size: 27.33px;
+  display: block;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.heigh {
+  display: flex;
+  gap: 4rem;
+  height: 22px;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.compititor {
+  padding: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  background-color: #fafafa;
+}
+
+.cmo {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.cmo-list {
+  font-size: 0.95rem;
+  width: 285px;
+  height: 304px;
+  padding: 1.5rem;
+  line-height: 1.5;
+  border-radius: 8px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.cmo-logo img {
+  height: 60px;
+  /* outline: 1px solid red; */
+  margin-top: 2rem;
+  /* width: 60px; */
+}
+
+.cmo-discription {
+  color: #8993a6;
+  line-height: 1.5;
+  font-weight: normal;
+  padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #2e3469;
+  color: #9597ae;
+  padding: 2rem 4rem;
+}
+
+.footer a {
+  color: #9597ae;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pages {
+  display: flex;
+  gap: 2rem;
+  align-self: center;
+}
