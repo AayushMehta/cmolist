@@ -17,7 +17,6 @@
   flex-direction: column;
   margin: 0 auto;
   gap: 6rem;
-  /* margin-bottom: 3rem; */
 }
 
 /* navbar css STARTS */
@@ -25,6 +24,8 @@
 .navbar {
   font-size: 1.5rem;
   font-weight: 700;
+  /* width: 90vw;
+  margin: 0 auto; */
   /* border: 1px solid red; */
   display: flex;
   padding: 0.75rem;
@@ -84,7 +85,7 @@
 .heigh {
   display: flex;
   gap: 4rem;
-  height: 22px;
+  /* height: 22px; */
   margin-top: 2rem;
   justify-content: center;
 }
@@ -153,4 +154,79 @@
   display: flex;
   gap: 2rem;
   align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    gap: 2rem;
+  }
+
+  .hero {
+    /* Apply some styles */
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .hero-description {
+    width: 100%;
+  }
+
+  .hero-description h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .hero img {
+    height: 250px;
+    width: 350px;
+  }
+
+  .heigh {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .heigh img {
+    width: 138px;
+  }
+
+  .compititor {
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
+    font-weight: 600;
+    background-color: #fafafa;
+  }
+
+  .cmo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cmo-list {
+    margin: 0 auto;
+    width: 285px;
+    height: 304px;
+    padding: 0;
+    border-radius: 8px;
+    background-color: white;
+    font-family: sans-serif;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
 }
