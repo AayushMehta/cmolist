@@ -13,7 +13,7 @@
 .container {
   display: flex;
   font-family: "Poppins", sans-serif;
-  width: 90vw;
+  /* width: 90vw; */
   flex-direction: column;
   margin: 0 auto;
   gap: 6rem;
@@ -29,7 +29,8 @@
   /* border: 1px solid red; */
   display: flex;
   padding: 0.75rem;
-  /* width: 70vw; */
+  width: 90vw;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
@@ -47,6 +48,8 @@
 /*hero CSS Starts */
 
 .hero {
+  width: 90vw;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
