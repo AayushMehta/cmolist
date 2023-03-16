@@ -8,11 +8,12 @@ window.addEventListener("scroll", () => {
   if (window.pageYOffset > 0) {
     nav.classList.add("dark-mode");
   } else {
+    // console.log("hell");
     nav.classList.toggle("dark-mode");
   }
-  if (window.pageYOffset == 0) {
-    nav.classList.add("scstop");
-  }
+  // if (window.pageYOffset == 0) {
+  //   nav.classList.add("scstop");
+  // }
 });
 
 // body.addEventListener("scroll", backgroundChange);
